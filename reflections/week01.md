@@ -89,3 +89,16 @@ This failure did not happen when the system was first built, but when a live sys
 **Source**
 1. U.S. Securities and Exchange Commission (2013) SEC Charges Knight Capital With Violations of Market Access Rule. Available at: https://www.sec.gov/news/press-release/2013-222
 2. U.S. Securities and Exchange Commission (2013) Order Instituting Proceedings: Knight Capital Americas LLC, Release No. 34-70694. Available at: https://www.sec.gov/litigation/admin/2013/34-70694.pdf
+
+
+
+## Is There Still a Software Crisis? ##
+**An additional fact about the NATO conference**  
+The first conference was held in Garmisch, Germany, from 7 to 11 October 1968, and it was sponsored by the NATO Science Committee. According to Brian Randell, who co-edited the report with Peter Naur, the title "software engineering" was chosen on purpose to be provocative. It described a requirement rather than a reality, because in 1968 software was not yet built like other engineering products. Another interesting point is that the report was written for officials and policy makers, not only for technical people, because the organisers wanted governments to understand how serious the problems were. A follow-up conference was held in Rome in 1969.
+
+
+**My View**  
+A version of the software crisis still exists today, although it looks different. In the 1960s, the main problem was that programming techniques could not keep up with the size of new systems. Today we have much better methods and tools, but systems have become even bigger and more connected, so one small mistake can spread very quickly. Knight Capital is a clear example. One faulty deployment caused a loss of more than $460 million in under an hour, which is exactly the kind of unexpected behaviour that worried the people at Garmisch. However, I would not say that nothing has improved. Many projects are delivered successfully every day, and failures like this become famous partly because they are rare. So I believe the crisis has not disappeared. It has simply moved from building software to changing and releasing it safely.
+
+**Source**  
+Randell, B. (2018) Fifty Years of Software Engineering, or The View from Garmisch. Available at: https://arxiv.org/abs/1805.02742
