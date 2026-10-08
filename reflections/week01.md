@@ -77,3 +77,15 @@ On the first day of live use, warehouse staff found the stock-transfer screens d
 
 ### The most damaging failure
 In my view, the most damaging failure was the lack of a written specification at the kickoff stage. Almost every later problem can be traced back to it. Without documented requirements, the developers had nothing to share or coordinate around, and they never checked their assumptions with warehouse staff. The second warehouse was treated as a small addition because there was no original scope to compare it with. Testing was also weak partly because no test cases could be written without clear requirements. Finally, the problems found at go-live, such as the incorrect transfer screens and the lack of support for simultaneous users, were all requirements that a proper specification process should have identified early, when they would have been much cheaper to fix.
+
+
+## Task 3 — Researching a Different Software Failure 
+**Knight Capital trading loss** 
+On 1st August, 2012, Knight Capital, one of the biggest share-trading firms in the United States, lost more than $460 million in about 45 minutes. When the market opened, its automated order router sent more than 4 million orders while trying to fill only 212 customer orders. According to the SEC, the root cause was old, unused code called "Power Peg", which had never been removed from the router. In July 2012, Knight installed new code for a new NYSE programme, but a technician did not copy it to one of the eight servers, and nobody checked the deployment. When the new orders arrived, that server ran the old code instead, and it could not recognise that orders had already been filled. Knight was later fined $12 million.
+
+**Link to the Lecture: "software evolves, with ongoing costs"**
+This failure did not happen when the system was first built, but when a live system was changed. It is because old code had been left inside it for many years and a careless deployment woke it up. This shows why most of the lifetime cost and risk of software comes from changing it after it is already in use.
+
+**Source**
+1. U.S. Securities and Exchange Commission (2013) SEC Charges Knight Capital With Violations of Market Access Rule. Available at: https://www.sec.gov/news/press-release/2013-222
+2. U.S. Securities and Exchange Commission (2013) Order Instituting Proceedings: Knight Capital Americas LLC, Release No. 34-70694. Available at: https://www.sec.gov/litigation/admin/2013/34-70694.pdf
