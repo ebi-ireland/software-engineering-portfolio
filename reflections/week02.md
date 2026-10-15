@@ -1,5 +1,5 @@
 # Week 2 Portfolio
-Summary of this MD file.  
+This document evaluates suitable software development models—such as Waterfall, RAD, and Incremental development—for different project briefs based on criteria like risk, timeline, and requirements. It also analyzes a student scholarship website project to justify using an incremental approach.   
 .  
 
 ## TASK 1
@@ -61,4 +61,13 @@ An incremental approach is ideal because it allows the team to launch a simple, 
 
 
 
-## TASK 2
+## TASK 3
+A project I have chose is a website that helps students find domestic and international scholarships for studying in university. Users can search scholarships by their domestic country and countries as international students, subject and deadline, and save the ones they are interested in.
+
+Firstly, the requirement are only partly clear. The core feature is a searchable list. 
+
+Secondly, the risk is low. There is no safety issue, although personal data in user accounts must be protected. 
+
+Thirdly, scholarship deadlnes follow the academic year, so a basic version should go live quickly and then improve. 
+
+Finally, real students can test each increment. The first increment would be a simple search page, followd by saved list and email reminders. The main risj is reworking the data model later, so I would design it carefully at the start.  
